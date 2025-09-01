@@ -1,0 +1,55 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   background: #fefefe;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 40px;
+}
+
+th, td {
+   border: 2px solid black;
+   width: 12.5%;
+   height: 70px;
+   text-align: center;
+   vertical-align: top;
+   padding: 5px;
+}
+
+th {
+   background: #f0f0f0;
+   font-weight: bold;
+}
+
+.week {
+   background: #ddd;
+   width: 50px;
+}
+
+.sunday {
+   color: red;
+   font-weight: bold;
+}
+
+.holiday {
+   background: yellow;
+   font-weight: bold;
+}
+
+.holiday a {
+   color: black;
+   text-decoration: none;
+}
+
+.holiday a:hover {
+   color: red;
+   text-decoration: underline;
+}
